@@ -17,7 +17,7 @@ Gem::Specification.new do |spec|
     `git ls-files -z`.split("\x0").reject { |f| f.match(%r{^(test|spec|features)/}) }
   end
   spec.bindir        = "exe"
-  spec.executables   = ["bm-qpdf"]
+  spec.executables   = []
   spec.require_paths = ["lib"]
 
   spec.add_development_dependency "bundler", "~> 1.17"
